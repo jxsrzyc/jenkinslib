@@ -1,6 +1,8 @@
+#!groovy
+
 @Library('jenkinslib') _
 
-def tools = nwe org.devops.tools()
+def tools = new org.devops.tools()
 
 String workspace = "/data/jenkins/workspace"
 
