@@ -1,5 +1,3 @@
-#!groovy
-
 @Library('jenkinslib') _
 
 def tools = nwe org.devops.tools()
